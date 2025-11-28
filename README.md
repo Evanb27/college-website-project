@@ -19,3 +19,13 @@ symbol from Google material symbols. I added it to the font by converting the fo
 
 ### UI typography
 I went with [Roboto](https://fonts.google.com/specimen/Roboto), as it's one of the most widely used fonts on the web and is simple and very readable, which is good for accessibility.
+
+### Pages
+- Home
+- Campaigns
+    - Mountains
+    - Rivers
+    - Fly tipping
+- Our mission
+- Contact
+- Join us (CTA to volunteer/donate)
