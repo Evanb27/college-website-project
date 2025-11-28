@@ -16,3 +16,6 @@ symbol from Google material symbols. I added it to the font by converting the fo
 - Foreground: #e2e2e2
 - Accent: #50D75A
 - Secondary: #212121
+
+### UI typography
+I went with [Roboto](https://fonts.google.com/specimen/Roboto), as it's one of the most widely used fonts on the web and is simple and very readable, which is good for accessibility.
