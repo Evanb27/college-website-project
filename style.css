@@ -155,6 +155,11 @@ footer > nav > a {
   color: white;
 }
 
+footer > span > a {
+  float: right;
+  color: white;
+}
+
 .campaign-cards {
   flex-wrap: wrap;
 }
