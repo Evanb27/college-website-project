@@ -185,10 +185,10 @@ footer > nav > a {
 }
 
 .campaign > img {
-  width: 100%;
+  width: 70%;
   height: 400px;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
 }
 .campaign {
   display: flex;
