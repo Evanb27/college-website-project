@@ -155,6 +155,9 @@ footer > nav > a {
   color: white;
 }
 
+.campaign-cards {
+  flex-wrap: wrap;
+}
 .campaign-card {
   width: 400px;
   height: 500px;
