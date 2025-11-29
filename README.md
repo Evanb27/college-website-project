@@ -1,6 +1,9 @@
 ## Design specification
+
 This section shows the design decisions I made for the UI and branding of the website.
+
 ### Logo
+
 ![Logo](assets/logo.svg)
 
 I designed the logo using Figma.
@@ -12,20 +15,23 @@ I wanted to incorporate an environmental/eco-friendly symbol into the logo, so I
 symbol from Google material symbols. I added it to the font by converting the font to a path in figma, shortening the "I" and putting the eco symbol on top so it resembles a lowercase "i".
 
 ### Colour scheme
+
 - Background #fafafa
 - Foreground: #e2e2e2
 - Accent: #50D75A
 - Secondary: #212121
 
 ### UI typography
+
 I went with [Roboto](https://fonts.google.com/specimen/Roboto), as it's one of the most widely used fonts on the web and is simple and very readable, which is good for accessibility.
 
 ### Pages
+
 - Home
 - Campaigns
-    - Mountains
-    - Rivers
-    - Fly tipping
+  - Mountains
+  - Rivers
+  - Fly tipping
 - Our mission
 - Contact
 - Join us (CTA to volunteer/donate)
