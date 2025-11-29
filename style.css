@@ -71,7 +71,10 @@ main {
 }
 
 .hero {
-  background: var(--green-accent);
+  /* background: var(--green-accent); */
+  background-image: url("https://d1km7u9ubck4j.cloudfront.net/production-upgrade-2024/b0f13a12e828374f22b1be5980afae58/conversions/608b3351cb31f-HD.jpg");
+  background-position: center;
+  background-size: cover;
   height: 400px;
   display: flex;
   justify-content: center;
