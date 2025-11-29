@@ -103,7 +103,7 @@ footer > nav {
   gap: 10px;
 }
 
-.campaign {
+.campaign-card {
   width: 400px;
   height: 500px;
   border: 1px solid lightgray;
@@ -112,7 +112,7 @@ footer > nav {
   display: flex;
   flex-direction: column;
 }
-.campaign > div {
+.campaign-card > div {
   height: auto;
   width: 400px;
   display: flex;
@@ -121,7 +121,7 @@ footer > nav {
   gap: 10px;
   flex-direction: column;
 }
-.campaign > div > a {
+.campaign-card > div > a {
   width: 100%;
   text-align: center;
   background: #50d75a;
@@ -129,11 +129,28 @@ footer > nav {
   padding: 10px;
 }
 
-.campaign > img {
+.campaign-card > img {
   width: 100%;
   height: 350px;
   object-fit: cover;
   object-position: center;
+}
+
+.campaign > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.campaign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.campaign > p {
+  max-width: 70%;
 }
 
 form {
