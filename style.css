@@ -47,6 +47,7 @@ body {
   margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
+  background: #ffffff80;
   backdrop-filter: blur(5px);
 }
 
