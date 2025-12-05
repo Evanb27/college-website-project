@@ -26,13 +26,24 @@
         <h1>Feel free to shoot us a messsage!</h1>
         <form>
           <label for="name">Name</label>
-          <input id="name" type="text" placeholder="Your full name" />
+          <input required id="name" type="text" placeholder="Your full name" />
           <label for="email">Email</label>
-          <input id="email" type="email" placeholder="your@email.address" />
+          <input
+            required
+            id="email"
+            type="email"
+            placeholder="your@email.address"
+          />
           <label for="subject">Subject</label>
-          <input id="subject" type="text" placeholder="What is it regarding?" />
+          <input
+            required
+            id="subject"
+            type="text"
+            placeholder="What is it regarding?"
+          />
           <label for="body">Message</label>
           <textarea
+            required
             maxlength="1000"
             id="body"
             placeholder="Tell us how we can help..."
@@ -44,10 +55,10 @@
 
     <footer>
       <nav>
-        <a class="current-page" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="campaigns.html">Campaigns</a>
         <a href="our-mission.html">Our Mission</a>
-        <a href="contact.html">Contact</a>
+        <a class="current-page" href="contact.html">Contact</a>
       </nav>
       <span
         >© 2025 GAIA | <strong>Made by Evan</strong>
