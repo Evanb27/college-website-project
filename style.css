@@ -55,21 +55,9 @@ a:hover {
   cursor: pointer;
 }
 
-.join-us-link {
-  background: var(--green-accent);
-  height: 40px;
-  width: 100px;
-  line-height: 30px;
-  text-align: center;
-  padding: 5px;
-  border-radius: 10px;
-}
-
 .current-page {
   text-decoration: underline 4px var(--green-accent);
 }
-.current-page-join-us {
-  background: lightgray;
 }
 
 main {
