@@ -28,13 +28,31 @@ I went with [Roboto](https://fonts.google.com/specimen/Roboto), as it's one of t
 ## Wireframe
 
 [Figma](https://www.figma.com/design/VgUgtK8FZATc8uca60GiNT/Website-Project?node-id=0-1&t=4eQOE0X5ZTxjCF75-1)
+
+## Requirements
+
 ### Pages
 
-- Home
-- Campaigns
+- Home (sumarises other pages so people can get information from a quick glance).
+- Campaigns (so people can see all the work we are doing and in what areas).
   - Mountains
   - Rivers
   - Fly tipping
-- Our mission
-- Contact
-- Join us (CTA to volunteer/donate)
+- Our mission (so that people can find out about what the organisation stands for).
+- Contact (so that people are able to get in touch with the organisation).
+
+### Navigation
+
+- Contain links to all pages.
+- Switch to a vertical layout for devices with a smaller screen.
+- Display the logo.
+
+### Functional Requirements
+
+- Site should be responsive on different screen sizes (desktop, tablet and mobile).
+
+### Functional Requirements
+
+- Site should load in under 1 second.
+- Accessibility should meet the latest WCAG guidelines.
+- Design should remain consistent across all pages.
