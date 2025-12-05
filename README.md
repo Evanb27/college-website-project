@@ -16,6 +16,9 @@ symbol from Google material symbols. I added it to the font by converting the fo
 
 ### Colour scheme
 
+I chose a very light mint green colour for the background to make it more interesting than plain white.
+For the Accent colour I went with a bright green, because that colour is associated with the environment and it also stands out.
+
 - Background rgba(240, 250, 230, 0.3)
 - Foreground: #d3d3d3
 - Accent: #50D75A
@@ -25,11 +28,35 @@ symbol from Google material symbols. I added it to the font by converting the fo
 
 I went with [Roboto](https://fonts.google.com/specimen/Roboto), as it's one of the most widely used fonts on the web and is simple and very readable, which is good for accessibility.
 
+### Images
+
+![Campaign](assets/campaign.svg)
+[Google Material Symbols - Campaign](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:campaign:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=campaign&icon.size=24&icon.color=%23e3e3e3)
+
+![Group](assets/group.svg)
+[Google Material Symbols - Diversity 3](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:diversity_3:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=diversi&icon.size=24&icon.color=%23e3e3e3)
+
+![Law](assets/group.svg)
+[Google Material Symbols - Gavel](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:gavel:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=law&icon.size=24&icon.color=%23e3e3e3)
+
+![Fly Tipping](https://c.files.bbci.co.uk/0ca4/live/db220570-c15b-11f0-8456-eff94716b162.jpg)
+[BBC News article about Fly Tipping](https://c.files.bbci.co.uk/0ca4/live/db220570-c15b-11f0-8456-eff94716b162.jpg)
+
+![Mountain](https://visitwalesimages.thedms.co.uk/eandapics/MW/vlarge/0803517_1000_8.jpg)
+[Picture of Snowden from Visit Wales website](https://visitwalesimages.thedms.co.uk/eandapics/MW/vlarge/0803517_1000_8.jpg)
+
+![River](assets/river-thames.jpg)
+[Picture of River thames taken from Google maps](https://www.google.com/maps/@51.5,-0.135,11217m)
+
 ## Wireframe
 
 [Figma](https://www.figma.com/design/VgUgtK8FZATc8uca60GiNT/Website-Project?node-id=0-1&t=4eQOE0X5ZTxjCF75-1)
 
 ## Requirements
+
+### Purpose Statement
+
+The purpose of the GAIA website is to showcase what the organisation is doing, how people can support it, and how people can get in contact.
 
 ### Pages
 
@@ -56,3 +83,10 @@ I went with [Roboto](https://fonts.google.com/specimen/Roboto), as it's one of t
 - Site should load in under 1 second.
 - Accessibility should meet the latest WCAG guidelines.
 - Design should remain consistent across all pages.
+
+### Software Requirements
+- A modern browser
+
+### Hardware Requirements
+- A relativly modern PC, Android device or iOS device.
+- A stable internet connection.
