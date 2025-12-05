@@ -16,8 +16,8 @@ symbol from Google material symbols. I added it to the font by converting the fo
 
 ### Colour scheme
 
-- Background #fafafa
-- Foreground: #e2e2e2
+- Background rgba(240, 250, 230, 0.3)
+- Foreground: #d3d3d3
 - Accent: #50D75A
 - Secondary: #212121
 
