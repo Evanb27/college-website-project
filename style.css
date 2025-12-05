@@ -20,11 +20,6 @@ body::-webkit-scrollbar {
   font-family: "Poppins", sans-serif;
 }
 
-.disable-selecting {
-  user-select: none;
-  -webkit-user-drag: none;
-}
-
 html,
 body {
   margin: 0;
