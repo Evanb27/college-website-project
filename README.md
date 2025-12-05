@@ -25,6 +25,9 @@ symbol from Google material symbols. I added it to the font by converting the fo
 
 I went with [Roboto](https://fonts.google.com/specimen/Roboto), as it's one of the most widely used fonts on the web and is simple and very readable, which is good for accessibility.
 
+## Wireframe
+
+[Figma](https://www.figma.com/design/VgUgtK8FZATc8uca60GiNT/Website-Project?node-id=0-1&t=4eQOE0X5ZTxjCF75-1)
 ### Pages
 
 - Home
