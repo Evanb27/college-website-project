@@ -2,6 +2,9 @@
 
 :root {
   --green-accent: #50d75a;
+  --grey-border: #d3d3d3;
+  --footer-colour: #212121;
+  --bg: rgba(240, 250, 230, 0.3);
 }
 
 ::selection {
@@ -27,14 +30,18 @@ body {
 }
 
 body {
+  background: var(--bg);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 .navbar {
-  position: fixed;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -42,8 +49,6 @@ body {
   margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
-  background: #ffffff80;
-  backdrop-filter: blur(5px);
 }
 
 a {
@@ -57,17 +62,25 @@ a:hover {
 
 .current-page {
   text-decoration: underline 4px var(--green-accent);
+  text-underline-offset: 6px;
 }
+
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1rem;
+  }
 }
 
 main {
-  margin-top: 80px;
+  margin-top: 10px;
   width: 100%;
   flex: 1;
+  margin: 10px;
 }
 
 .hero {
-  /* background: var(--green-accent); */
   background-image: url("https://d1km7u9ubck4j.cloudfront.net/production-upgrade-2024/b0f13a12e828374f22b1be5980afae58/conversions/608b3351cb31f-HD.jpg");
   background-position: center;
   background-size: cover;
@@ -87,25 +100,60 @@ main {
   margin-top: 50px;
 }
 
+.stats > p > span {
+  color: var(--green-accent);
+  font-weight: bold;
+}
+
 .previews {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 40px 0;
 }
 
-.home-preview {
+.preview {
+  padding: 40px;
+  height: auto;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 1px solid var(--grey-border);
+}
+
+.preview > img {
+  align-self: center;
+  margin: 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 50vw;
+}
+
+.campaign-preview {
   padding: 40px;
   height: 300px;
   width: 70%;
-  border: 1px solid lightgray;
+  display: flex;
 }
 
-.home-preview > a {
+.link {
+  text-decoration: underline 4px var(--green-accent);
+  text-underline-offset: 4px;
+  transition: all 0.2s linear;
+}
+
+.link:hover {
+  text-decoration: underline 4px black;
+  background: var(--green-accent);
+}
+
+.read-more {
+  width: fit-content;
   align-self: flex-end;
 }
 
@@ -121,7 +169,7 @@ main {
 }
 
 footer {
-  background: #212121;
+  background: var(--footer-colour);
   width: 100%;
   padding: 50px;
   color: white;
@@ -130,6 +178,7 @@ footer {
 footer > nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   gap: 10px;
   margin-bottom: 25px;
@@ -150,7 +199,7 @@ footer > span > a {
 .campaign-card {
   width: 400px;
   height: 500px;
-  border: 1px solid lightgray;
+  border: 1px solid var(--grey-border);
   border-radius: 5px;
   overflow: hidden;
   display: flex;
@@ -168,7 +217,7 @@ footer > span > a {
 .campaign-card > div > a {
   width: 100%;
   text-align: center;
-  background: #50d75a;
+  background: var(--green-accent);
   border-radius: 5px;
   padding: 10px;
 }
@@ -258,7 +307,7 @@ form > textarea {
 
 form > input:focus,
 form > textarea:focus {
-  border: 3px solid #50d75a;
+  border: 3px solid var(--green-accent);
   padding: 8px;
 }
 
@@ -270,7 +319,7 @@ form > textarea {
 }
 
 .send {
-  background: #50d75a;
+  background: var(--green-accent);
   border: none;
   font-size: 1rem;
   height: 40px;
